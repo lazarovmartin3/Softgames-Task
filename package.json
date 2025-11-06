@@ -1,0 +1,24 @@
+{
+  "name": "SoftgamesTest",
+  "version": "0.0.1",
+  "description": "SoftgamesTest - PixiJS + Spine + TypeScript game",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "@pixi-spine/loader-4.1": "^4.0.5",
+    "@pixi-spine/runtime-4.1": "^4.0.5",
+    "@pixi/sound": "^5.2.3",
+    "@tweenjs/tween.js": "^25.0.0",
+    "pixi-filters": "^5.3.0",
+    "pixi.js": "^7.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "5.4.5",
+    "vite": "5.2.8"
+  }
+}
